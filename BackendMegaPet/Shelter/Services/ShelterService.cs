@@ -1,4 +1,5 @@
-﻿using BackendMegaPet.Shelter.Domain.Repositories;
+﻿using BackendMegaPet.Shared.Domain.Repositories;
+using BackendMegaPet.Shelter.Domain.Repositories;
 using BackendMegaPet.Shelter.Domain.Services;
 using BackendMegaPet.Shelter.Domain.Services.Communication;
 namespace BackendMegaPet.Shelter.Services;
@@ -50,7 +51,6 @@ public class ShelterService : IShelterService
         existingShelter.image = shelter.image;
         existingShelter.location = shelter.location;
         existingShelter.phone = shelter.phone;
-
         try
         {
             _shelterRepository.UpdateShelter(existingShelter);

@@ -18,6 +18,7 @@
     </ItemGroup>
 
     <ItemGroup>
+
       <Folder Include="Adopter\Controllers" />
       <Folder Include="Adopter\Domain\Models" />
       <Folder Include="Adopter\Domain\Repositories" />
@@ -33,9 +34,11 @@
       <Folder Include="Pet\Persistence" />
       <Folder Include="Pet\Resources" />
       <Folder Include="Pet\Services" />
+
+      <Folder Include="Pet" />
+
       <Folder Include="Shared\Exceptions" />
       <Folder Include="Shared\Mapping" />
-      <Folder Include="Shared\Persistence" />
       <Folder Include="Shared\Resources" />
     </ItemGroup>
 

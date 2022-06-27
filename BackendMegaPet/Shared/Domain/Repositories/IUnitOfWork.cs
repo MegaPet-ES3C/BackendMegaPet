@@ -1,4 +1,4 @@
-﻿namespace BackendMegaPet.User.Domain.Repositories;
+﻿namespace BackendMegaPet.Shared.Domain.Repositories;
 
 public interface IUnitOfWork
 {
