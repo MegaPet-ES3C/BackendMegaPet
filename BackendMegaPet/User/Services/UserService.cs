@@ -43,7 +43,12 @@ public class UserService : IUserService
         if (existingUser == null)
             return new UserResponse("User not found");
 
-        // existingUser.name = user.name;
+        existingUser.birthday = user.birthday;
+        existingUser.email = user.email;
+        existingUser.image = user.image;
+        existingUser.name = user.name;
+        existingUser.password = user.password;
+        existingUser.phone = user.phone;
         
         try
         {

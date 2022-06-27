@@ -46,6 +46,12 @@ public class ShelterService : IShelterService
             return new ShelterResponse("Shelter not found please re check the Shelter id");
         }
 
+        existingShelter.address = shelter.address;
+        existingShelter.district = shelter.district;
+        existingShelter.image = shelter.image;
+        existingShelter.location = shelter.location;
+        existingShelter.phone = shelter.phone;
+        
         try
         {
             _shelterRepository.UpdateShelter(existingShelter);
