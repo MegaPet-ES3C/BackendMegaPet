@@ -120,12 +120,5 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\projects\\gitRepositories\\BackendMegaPet\\BackendMegaPet\\obj\\project.nuget.cache : After parsing a value an unexpected character was encountered: :. Path 'expectedPackageFiles[30]', line 39, position 14."
-    }
-  ]
+  "logs": []
 }
