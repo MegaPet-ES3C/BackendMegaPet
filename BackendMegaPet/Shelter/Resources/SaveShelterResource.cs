@@ -21,4 +21,15 @@ public class SaveShelterResource
     [Required]
     [MaxLength(50)]
     public string location { get; set; }
+    [Required]
+    [MaxLength(500)]
+    public string urlImage { get; set; }
+    [Required]
+    [MaxLength(500)]
+    public string urlWebPage { get; set; }
+    [Required]
+    [MaxLength(500)]
+    public string description { get; set; }
+
+
 }

@@ -8,4 +8,7 @@ public class ShelterResource
     public int phone { get; set; }
     public string district { get; set; }
     public string location { get; set; }
+    public string urlImage { get; set; }
+    public string urlWebPage { get; set; }
+    public string description { get; set; }
 }

@@ -51,6 +51,9 @@ public class ShelterService : IShelterService
         existingShelter.image = shelter.image;
         existingShelter.location = shelter.location;
         existingShelter.phone = shelter.phone;
+        existingShelter.urlImage = shelter.urlImage;
+        existingShelter.urlWebPage = shelter.urlWebPage;
+        existingShelter.description = shelter.description;
         
         try
         {
