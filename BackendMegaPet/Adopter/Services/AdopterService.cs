@@ -43,7 +43,12 @@ public class AdopterService : IAdopterService
         if (existingAdopter == null)
             return new AdopterResponse("Adopter not found");
 
-        // existingAdopter.name = Adopter.name;
+        existingAdopter.status = adopter.status;
+        existingAdopter.name = adopter.name;
+        existingAdopter.age = adopter.age;
+        existingAdopter.gender = adopter.gender;
+        existingAdopter.lastname = adopter.lastname;
+        existingAdopter.description = adopter.description;
 
         try
         {

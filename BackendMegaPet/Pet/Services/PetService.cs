@@ -46,6 +46,14 @@ public class PetService : IPetService
             return new PetResponse("Pet not found please re check the pet id");
         }
 
+        existingPet.description = pet.description;
+        existingPet.category = pet.category;
+        existingPet.image = pet.image;
+        existingPet.name = pet.name;
+        existingPet.rating = pet.rating;
+        existingPet.inventoryStatus = pet.inventoryStatus;
+        existingPet.rescuedTime = pet.rescuedTime;
+        
         try
         {
             _petRepository.UpdatePet(existingPet);
